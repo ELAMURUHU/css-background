@@ -1,0 +1,220 @@
+.bg-color p{
+	/* width:100px;
+	height:100px; */
+	background-color:#ff9966;
+}
+
+.bg_image{
+	background-image: url("../images/bus.jpg");
+	width:500px;
+	height:350px;
+	background-repeat:no-repeat;
+	 background-color: #cccccc;
+}
+
+.bg_image_1{
+	background-image:linear-gradient(#ffa50094,#ffffff9c,#008000a1), url("../images/bus.jpg");
+	height:100vh;
+}
+	
+	
+.bg_origin{
+	border: 10px dashed black;
+  padding: 25px;
+  background-image: url("../images/bus.jpg");
+  background-repeat: no-repeat;
+  background-origin: padding-box;
+}
+
+.bg_origin_1{
+	border: 10px dashed black;
+  padding: 25px;
+  background-image: url("../images/bus.jpg");
+  background-repeat: no-repeat;
+  background-origin:border-box;
+  margin-top:30px;
+}
+.bg_origin_2{
+	border: 10px dashed black;
+  padding: 25px;
+  background-image: url("../images/bus.jpg");
+  background-repeat: no-repeat;
+  background-origin:content-box;
+  margin-top:30px;
+}
+
+
+.bg_position{
+	background-image: url("../images/igloo.jpg");
+  background-repeat: no-repeat;
+  background-color:lightgray;
+  
+  background-position: center; 
+  width:900px;
+	height:350px;
+}
+
+.bg_position_1{
+	background-color:lightgray;
+	width:400px;
+	height:300px;
+	background-image: url("../images/igloo.jpg");
+	background-repeat:no-repeat;
+	background-position:top;
+}
+.bg_position_2{
+	background-color:lightgray;
+	width:400px;
+	height:300px;
+	background-image: url("../images/igloo.jpg");
+	background-repeat:no-repeat;
+	background-position:left;
+}
+.bg_position_3{
+	background-color:lightgray;
+	width:400px;
+	height:300px;
+	background-image: url("../images/igloo.jpg");
+	background-repeat:no-repeat;
+	background-position:20% 70%;
+}
+
+.bg_size_1{
+	background-color:lightgray;
+	 background-image: url("../images/bus.jpg");
+  background-repeat:repeat;
+  background-size:contain;
+    width:900px;
+	height:350px;
+}
+.bg_size_2{
+	background-color:lightgray;
+	 background-image: url("../images/bus.jpg");
+  background-repeat:repeat;
+  background-size:cover;
+    width:900px;
+	height:350px;
+}
+.bg_size_3{
+	background-color:lightgray;
+	 background-image: url("../images/bus.jpg");
+  background-repeat:repeat;
+  background-size:40%;
+    width:900px;
+	height:350px;
+}
+
+.bg_repeat{
+	background-image: url("../images/fruit.jpg");
+	 height:100vh;
+	 background-repeat:repeat;
+}
+
+.bg_repeat_x{
+	background-image: url("../images/fruit.jpg");
+	 height:100vh;
+	 background-repeat:repeat-x;
+	 margin-top:30px;
+}
+.bg_repeat_y{
+	background-image: url("../images/fruit.jpg");
+	 height:100vh;
+	 background-repeat:repeat-y;
+	 
+}
+.bg_repeat_space{
+	background-color:lightgray;
+	 background-image: url("../images/igloo.jpg");
+  background-repeat:space;
+  
+    width:700px;
+	height:350px;
+	
+}
+.bg_repeat_round{
+	background-color:lightgray;
+	 background-image: url("../images/igloo.jpg");
+  background-repeat:round;
+  
+    width:700px;
+	height:350px;
+	
+}
+
+.bg_clip_1 {
+  border: 10px dotted black;
+  padding: 15px;
+  background: lightblue;
+  background-clip: border-box;  
+}
+
+.bg_clip_2 {
+  border: 10px dotted black;
+  padding: 15px;
+  background: lightblue;
+  background-clip: padding-box;
+  padding-top:20px;
+  margin-top:50px;
+}
+
+.bg_clip_3{
+  border: 10px dotted black;
+  padding: 15px;
+  background: lightblue;
+  background-clip: content-box;
+  padding-top:20px;
+  margin-top:50px;
+}
+.bg_attach_1{
+	 background-image: url("../images/fruit.jpg");
+	  height:100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow:scroll;
+  width:450px;
+  height:315px;
+}
+.bg_attach_2{
+	 background-image: url("../images/fruit.jpg");
+	  height:100vh;
+  background-repeat: no-repeat;
+  background-attachment:scroll;
+  overflow:scroll;
+  width:450px;
+  height:315px;
+}
+.bg_attach_3{
+	background-image: url("../images/fruit.jpg"),url("../images/bus.jpg");
+	  height:100vh;
+  background-repeat: no-repeat;
+  background-attachment:local;
+  overflow:scroll;
+  width:450px;
+  height:315px;
+}
+
+
+
+.local_scroll_1{
+	background-image: url("../images/bus.jpg"), url("../images/fruit.jpg");
+	height:100vh;
+   background-attachment: local, scroll; 
+  
+  background-repeat: no-repeat, repeat-x;
+  overflow:scroll;
+  
+  width: 850px;
+    height: 300px;
+}
+.local_scroll_2{
+	background-image: url("../images/bus.jpg"), url("../images/fruit.jpg");
+	height:100vh;
+  background-attachment: scroll, local;
+  background-repeat: no-repeat, repeat-x;
+   overflow:scroll;
+   width: 850px;
+    height: 300px;
+  
+  /*width:450px;
+  height:315px; */
+}
